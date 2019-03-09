@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/amount_hint"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/tax_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tax_hint"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/tip_percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/tip_hint"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/submit_button"
+        android:onClick="launchActivity"/>
+
+</LinearLayout>

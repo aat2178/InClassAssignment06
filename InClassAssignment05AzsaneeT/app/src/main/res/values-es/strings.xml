@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Intent Launcher</string>
+    <string name="title">Título</string>
+    <string name="your_message">" Tu Mensaje"</string>
+    <string name="send_email">" Enviar Correo Electrónico"</string>
+    <string name="launch_activity">" Lanzar la Actividad"</string>
+    <string name="launch_camera">" Lanzar la Camara"</string>
+    <string name="title_only">" Solo Enviar el Titulo"</string>
+</resources>

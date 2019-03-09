@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <EditText
+            android:id="@+id/title_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title" />
+
+        <EditText
+            android:id="@+id/message_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/your_message" />
+
+        <CheckBox
+            android:id="@+id/only_send_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:onClick="titleOnlyClicked"
+            android:text="@string/title_only" />
+
+        <Button
+            android:id="@+id/send_email_button"
+            style="@style/button_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="sendEmailClicked"
+            android:text="@string/send_email" />
+
+        <Button
+            android:id="@+id/launch_activity_button"
+            style="@style/button_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="launchActivity"
+            android:text="@string/launch_activity" />
+
+        <Button
+            android:id="@+id/launch_camera_button"
+            style="@style/button_custom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:onClick="launchCamera"
+            android:text="@string/launch_camera" />
+
+    </LinearLayout>
+</ScrollView>

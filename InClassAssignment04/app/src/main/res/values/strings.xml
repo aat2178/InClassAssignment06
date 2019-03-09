@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">View Manipulator</string>
+    <string name="copy_button">COPY</string>
+    <string name="double_button">DOUBLE</string>
+    <string name="up_button">UP</string>
+    <string name="down_button">DOWN</string>
+
+</resources>

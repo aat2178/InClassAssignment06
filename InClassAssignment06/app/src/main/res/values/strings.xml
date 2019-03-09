@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Paintingz</string>
+    <string name="painting_name">Painting Name</string>
+    <string name="artist_name">Artist</string>
+    <string name="about_text">About the Painting</string>
+    <string name="in_a_museum">This Painting is in a Museum</string>
+    <string name="submit_button">Submit</string>
+    <string name="painting_age">Painting Age</string>
+</resources>
